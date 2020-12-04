@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D98E36DD-B88D-1929-EC30-952F12BC5F0F" containerWithKeyObject="0323D117-5EA3-823B-EA54-3319CA475C52" localFKIndex="39FEB130-F84E-BA29-8D88-B5331DFB15B0" name="Sali_Cinematograf_FK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>05E8D81F-F1C4-1C8A-F59A-93F7DB2F8903</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<referredTableLongName>Cinematograf</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BDD2A6BC-B4B0-FCC8-5654-606E9232BA54</referredTableID>
+<keyObject>FC5A4F20-64EA-C72B-D407-E4420DA7FC2B</keyObject>
+<referredKeyID>FC5A4F20-64EA-C72B-D407-E4420DA7FC2B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nume_cinematograf</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

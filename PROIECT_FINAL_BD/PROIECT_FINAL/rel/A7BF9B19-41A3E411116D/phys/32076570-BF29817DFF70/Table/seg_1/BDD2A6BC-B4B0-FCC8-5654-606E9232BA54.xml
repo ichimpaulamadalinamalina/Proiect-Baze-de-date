@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Cinematograf" directorySegmentName="seg_1" id="BDD2A6BC-B4B0-FCC8-5654-606E9232BA54">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Adresa" id="43DDAB72-F246-4A43-FEED-D00C4F0D21B4">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Numar_telefon" id="68F2A598-BEF4-563C-83EF-0FB53F5FCB8F">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Program_lucru" id="92CC1368-3C9A-B45A-41A2-6F85D13BADAF">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Nume_cinematograf" id="D39221AE-79E9-57DD-06AE-9D0F8FBC1614">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Cinematograf_PK" id="FC5A4F20-64EA-C72B-D407-E4420DA7FC2B">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

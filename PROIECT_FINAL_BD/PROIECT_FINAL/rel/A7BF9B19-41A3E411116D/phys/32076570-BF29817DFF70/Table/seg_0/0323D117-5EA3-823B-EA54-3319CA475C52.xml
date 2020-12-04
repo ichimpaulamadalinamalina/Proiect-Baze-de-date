@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Sali" directorySegmentName="seg_0" id="0323D117-5EA3-823B-EA54-3319CA475C52">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Nume_sala" id="004FAB92-C0CE-BCE5-6B0E-4C201CD26490">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Nume_cinematograf" id="79DD4CF7-190E-F801-36EE-90FD4CF55BEE">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Id_sala" id="848FF8C5-CC1E-CD0E-87BE-AA15A1094904">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Numar_randuri" id="95F9B8FB-2D7A-5059-40FC-D5A100A86997">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Numar_scaune" id="FF2621D3-BFFC-0571-2F19-F8148F6E352C">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Sali_Cinematograf_FK" id="39FEB130-F84E-BA29-8D88-B5331DFB15B0">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Sali_PK" id="5ED11651-7503-9D32-EC1F-DE0EB8DC9113">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Sali_Nume_sala_UN" id="052D242A-D5C4-AB7B-F524-8D99FF0A397E">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B999D618-C0F5-92EB-D3D7-69B628535729" name="Film">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>CF0E15A7-596B-9ED4-B7E5-5DF46A204CF2</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_film" id="2BDA3B12-86E6-DAE5-4287-70C32C7D2C4E">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>59FCF31C-1E1C-5545-A676-AFCA3C0CCA58</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>300</autoIncrementStartWith>
+<autoIncrementMaxValue>370</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nume_film" id="D5F100F5-4A16-AB27-208E-B0E690F40F1B">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>19161750-326B-1D70-25E3-18F583900BA3</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nume_regizor" id="C605A5C7-D7E5-C9B1-68A0-31AAFA134BD8">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>D7697A16-37AD-EA30-9E31-A18E93021C28</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pret" id="3B577B0C-6264-B8E1-F966-E2F18FF652A2">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>4774270A-E09F-43EE-8A0A-FF68E6413334</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<constraintName>pret_film_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="Pret&gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BF369D2-7DC3-1217-062D-161912EB2E00" name="Film_PK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>97021622-67A1-FD2E-3BE9-87164683A853</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BDA3B12-86E6-DAE5-4287-70C32C7D2C4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F00343F8-179D-6F9F-318F-C9247A6E5DE1" name="Film_Nume_film_Nume_regizor_UN">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>1329419B-D41B-F023-6410-A51363801ED6</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5F100F5-4A16-AB27-208E-B0E690F40F1B"/>
+<colUsage columnID="C605A5C7-D7E5-C9B1-68A0-31AAFA134BD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

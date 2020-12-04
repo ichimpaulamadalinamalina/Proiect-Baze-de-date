@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Locuri_sali" directorySegmentName="seg_0" id="7CA50E0C-55F7-C474-1FA5-306B8E9823FC">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Rand" id="08056446-193A-CAC1-2440-3EB53E7C2BC8">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Scaun" id="5F12B84E-0E98-8D2A-3AD7-14547A5360FB">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Id_sala" id="EF42A464-3407-5404-996C-2ADB21FAF0E8">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Id_loc" id="EF6F2F77-8262-97A9-0820-88152421BA2D">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Locuri_sali_Sali_FK" id="6F30A2F9-972F-4362-668C-A8414B363CE9">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Locuri_sali_PK" id="997EAA49-74D0-F265-56C9-10358B5AB380">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

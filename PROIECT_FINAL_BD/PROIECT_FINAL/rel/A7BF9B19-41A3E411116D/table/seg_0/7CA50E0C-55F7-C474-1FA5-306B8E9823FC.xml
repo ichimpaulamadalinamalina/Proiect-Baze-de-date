@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CA50E0C-55F7-C474-1FA5-306B8E9823FC" name="Locuri_sali">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>4750494E-7C1B-9A96-4C19-F9290897FE95</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_loc" id="EF6F2F77-8262-97A9-0820-88152421BA2D">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>E8C2E086-35DC-FD6E-D907-3C6A157D46F3</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMaxValue>200</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_sala" id="EF42A464-3407-5404-996C-2ADB21FAF0E8">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>E11FED4C-BEF8-099C-CB32-C165DC832DD8</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F59CC781-E83A-284D-148E-B164C001599D" referredColumn="848FF8C5-CC1E-CD0E-87BE-AA15A1094904"/>
+</associations>
+</Column>
+<Column name="Rand" id="08056446-193A-CAC1-2440-3EB53E7C2BC8">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>C77D226E-EE96-9E9B-2E8A-37EBF58E0EB5</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Scaun" id="5F12B84E-0E98-8D2A-3AD7-14547A5360FB">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>67AEC042-C057-B51C-936F-04FAC267B931</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="997EAA49-74D0-F265-56C9-10358B5AB380" name="Locuri_sali_PK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>771E787F-BFF0-DDAA-8851-EB6052C36C40</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF6F2F77-8262-97A9-0820-88152421BA2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F30A2F9-972F-4362-668C-A8414B363CE9" name="Locuri_sali_Sali_FK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>3A158074-BF81-6298-7243-25311721FA36</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF42A464-3407-5404-996C-2ADB21FAF0E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

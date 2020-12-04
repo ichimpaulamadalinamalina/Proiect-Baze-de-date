@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PROIECT_FINAL" id="93B4D761-E052-C524-699B-B50AE92DAADE" version="3.5">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-10-23 07:51:04 UTC</createdTime>
+<ownerDesignName>cinematograf</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>93B4D761-E052-C524-699B-B50AE92DAADE</designId>
+</OSDM_Design>

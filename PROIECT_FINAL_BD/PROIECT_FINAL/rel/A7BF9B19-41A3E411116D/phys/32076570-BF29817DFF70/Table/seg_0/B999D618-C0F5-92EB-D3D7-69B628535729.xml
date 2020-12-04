@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Film" directorySegmentName="seg_0" id="B999D618-C0F5-92EB-D3D7-69B628535729">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Id_film" id="2BDA3B12-86E6-DAE5-4287-70C32C7D2C4E">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Pret" id="3B577B0C-6264-B8E1-F966-E2F18FF652A2">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Nume_regizor" id="C605A5C7-D7E5-C9B1-68A0-31AAFA134BD8">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Nume_film" id="D5F100F5-4A16-AB27-208E-B0E690F40F1B">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Film_PK" id="6BF369D2-7DC3-1217-062D-161912EB2E00">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Film_Nume_film_Nume_regizor_UN" id="F00343F8-179D-6F9F-318F-C9247A6E5DE1">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

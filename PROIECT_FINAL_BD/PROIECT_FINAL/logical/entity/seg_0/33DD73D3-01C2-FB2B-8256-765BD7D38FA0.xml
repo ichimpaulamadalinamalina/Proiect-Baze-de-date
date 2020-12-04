@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33DD73D3-01C2-FB2B-8256-765BD7D38FA0" name="Sali">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-10-23 08:06:03 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_sala" id="BC09CF7B-52D9-7BFA-9F8A-6A1E539C4DA8">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-10-23 08:06:43 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nume_sala" id="2837944E-9366-970F-22B2-F6FFD8486383">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-10-23 08:07:37 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numar_randuri" id="6F500BAD-BF6C-CA62-CBFB-5D1086ED5ACC">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-10-23 08:08:08 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numar_scaune" id="9BA017E8-0423-CFD4-326C-D08925DEF850">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-10-23 08:09:14 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nume_cinematograf" id="CCB18D3C-744C-8D0F-8013-85810005E27B">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-10-23 08:35:13 UTC</createdTime>
+<generatorID>05E8D81F-F1C4-1C8A-F59A-93F7DB2F8903</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<referedAttribute>500DE1D9-525E-C4AF-CEFA-3F5B1085F1C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="264A03BA-5CB2-4E83-0D2F-B11F5C1CD9F6" name="Sali PK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-10-23 08:07:34 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<deprecated>true</deprecated>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC09CF7B-52D9-7BFA-9F8A-6A1E539C4DA8</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="58AD24F5-6172-856D-BFA1-5938744F6092" name="Key_2">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-27 17:04:54 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="false"/>
+</engineerTo>
+<newElementsIDs>2837944E-9366-970F-22B2-F6FFD8486383</newElementsIDs>
+<usedAttributes>
+<attributeRef>2837944E-9366-970F-22B2-F6FFD8486383</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

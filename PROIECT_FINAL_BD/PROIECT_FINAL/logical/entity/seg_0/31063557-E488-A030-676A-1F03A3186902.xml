@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31063557-E488-A030-676A-1F03A3186902" name="Vanzari_bilete">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-10-23 08:23:56 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_vanzare" id="27544D83-686F-AE76-77AB-CCDC29EC771A">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-10-23 08:24:10 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_vanzare" id="A789F002-CF20-1154-2CD1-2D5CA5F4FAA2">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-07 07:48:52 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_proiectie" id="335EBFED-DFC2-E731-BBD1-83A820DC1F31">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-13 09:11:25 UTC</createdTime>
+<generatorID>589CB9DF-4E76-7EC4-618B-0FB3AE86A6BE</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<referedAttribute>A821F1F3-0EEE-E57B-746F-FDB70FE7DDFB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_loc" id="648BE6B7-AC95-7239-F49E-62332305F1FB">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-13 09:15:13 UTC</createdTime>
+<generatorID>494CD56A-CA05-287A-34BF-52000831DBF7</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<referedAttribute>E8C2E086-35DC-FD6E-D907-3C6A157D46F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_client" id="927D6570-3AF8-0061-EBAB-2CBF78241E78">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-13 09:21:55 UTC</createdTime>
+<generatorID>FB80277C-E6C6-02FC-DD72-0D42F4FD8FA7</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<referedAttribute>836ADF7B-DA65-FA89-842A-5474F293AE1C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C54D7C17-A7A5-6E9B-0B26-E4D3DE57300A" name="Vanzari PK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-10-23 08:25:25 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>27544D83-686F-AE76-77AB-CCDC29EC771A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

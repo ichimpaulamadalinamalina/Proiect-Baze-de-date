@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1F84FAD-5915-1B84-CB22-943EF0BC3EA1" name="Vanzari_bilete">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>31063557-E488-A030-676A-1F03A3186902</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_vanzare" id="26236217-D4FE-80D8-7FDC-918B1CEE0DDD">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>27544D83-686F-AE76-77AB-CCDC29EC771A</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>401</autoIncrementStartWith>
+<autoIncrementMaxValue>600</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_vanzare" id="83C484C3-0817-0514-363C-B39C2D13687C">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>A789F002-CF20-1154-2CD1-2D5CA5F4FAA2</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_proiectie" id="EC9CCBE0-2E33-38B3-4A8F-50F3E047559C">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>335EBFED-DFC2-E731-BBD1-83A820DC1F31</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8EFE6554-DC4D-1F9E-77CA-03CC7DEDF9B5" referredColumn="92BE2C54-D8B7-485A-BE7E-B91EFA4FC3A2"/>
+</associations>
+</Column>
+<Column name="Id_loc" id="E2D343F1-1ABD-8448-EFD0-97E3530C5CD0">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>648BE6B7-AC95-7239-F49E-62332305F1FB</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD9987FD-50DD-A950-523C-7B844AC15889" referredColumn="EF6F2F77-8262-97A9-0820-88152421BA2D"/>
+</associations>
+</Column>
+<Column name="Id_client" id="E5D0A940-E8C2-8927-932C-7FBF5349E058">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>927D6570-3AF8-0061-EBAB-2CBF78241E78</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7F1B05B-E19E-6674-CB64-EE791EED63A6" referredColumn="0DF3E5AC-1339-52A1-1240-F0B1FAFC491F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D78C1F7D-7D2C-5521-3F82-77C382D9C72E" name="Vanzari_bilete_PK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>C54D7C17-A7A5-6E9B-0B26-E4D3DE57300A</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26236217-D4FE-80D8-7FDC-918B1CEE0DDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4298646-ED42-098E-EEE0-679834366084" name="Vanzari_bilete_Proiectie_FK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>589CB9DF-4E76-7EC4-618B-0FB3AE86A6BE</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC9CCBE0-2E33-38B3-4A8F-50F3E047559C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A6D1598-F90D-BE4E-1E4B-DFD3A8442FBD" name="Vanzari_bilete_Locuri_sali_FK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>494CD56A-CA05-287A-34BF-52000831DBF7</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2D343F1-1ABD-8448-EFD0-97E3530C5CD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40B5F46F-1D16-2AB4-053D-D27BD4FEC9C4" name="Vanzari_bilete_Clienti_FK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>FB80277C-E6C6-02FC-DD72-0D42F4FD8FA7</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5D0A940-E8C2-8927-932C-7FBF5349E058"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

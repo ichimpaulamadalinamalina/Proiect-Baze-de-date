@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA43A28D-15AB-9CD7-7E5E-3808C803B422" name="Clienti">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-13 09:19:07 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_client" id="836ADF7B-DA65-FA89-842A-5474F293AE1C">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-13 09:19:48 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nume" id="A5837B00-4ABD-E6EC-E395-A67692D10198">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-13 09:20:15 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numar_telefon" id="204E1D83-5165-76DE-08CC-F55ECAFD0E9A">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-13 09:20:40 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="true"/>
+</engineerTo>
+<constraintName>client_tel_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="SUBSTR(Numar_telefon,1,2) LIKE&apos;07&apos; AND length(Numar_telefon)=10"/>
+</checkConstraint>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="989DDD5B-A95C-711C-1BEE-AA4DCB8DC00E" name="Locuri_sali PK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-13 09:19:07 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>836ADF7B-DA65-FA89-842A-5474F293AE1C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="4CB2E717-4917-7B6D-EFEC-CCCB70E28723" name="Key_2">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-27 18:06:43 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A7BF9B19-2A4A-EEB0-977C-41A3E411116D" value="false"/>
+</engineerTo>
+<newElementsIDs>A5837B00-4ABD-E6EC-E395-A67692D10198,204E1D83-5165-76DE-08CC-F55ECAFD0E9A</newElementsIDs>
+<usedAttributes>
+<attributeRef>A5837B00-4ABD-E6EC-E395-A67692D10198</attributeRef>
+<attributeRef>204E1D83-5165-76DE-08CC-F55ECAFD0E9A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Proiectie" directorySegmentName="seg_0" id="4E21F22A-5C64-0339-F210-23CDCCE84B50">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Id_film" id="85C35577-154A-9103-BE26-743747865F0D">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Id_proiectie" id="92BE2C54-D8B7-485A-BE7E-B91EFA4FC3A2">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Data" id="A01C1E79-5BDB-5C7B-D684-A4ECDC7FB3AE">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Ora" id="C6693279-6228-22D5-B140-E8FF5BFD98B0">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Id_sala" id="E3BDCE1A-E66D-BC25-AE55-C5FBAFC27484">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Proiectie_Film_FK" id="2F959390-4026-D215-B226-507BEC0E54EA">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Proiectie_Sali_FK" id="796A3DB3-4C3D-3EBA-3C00-10AA7214CBEE">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Proiectie_PK" id="B031643E-251D-9E50-A9CD-F8A95388338B">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

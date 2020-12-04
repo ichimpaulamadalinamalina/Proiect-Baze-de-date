@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FD9987FD-50DD-A950-523C-7B844AC15889" containerWithKeyObject="E1F84FAD-5915-1B84-CB22-943EF0BC3EA1" localFKIndex="0A6D1598-F90D-BE4E-1E4B-DFD3A8442FBD" name="Vanzari_bilete_Locuri_sali_FK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>494CD56A-CA05-287A-34BF-52000831DBF7</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<referredTableLongName>Locuri_sali</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7CA50E0C-55F7-C474-1FA5-306B8E9823FC</referredTableID>
+<keyObject>997EAA49-74D0-F265-56C9-10358B5AB380</keyObject>
+<referredKeyID>997EAA49-74D0-F265-56C9-10358B5AB380</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_loc</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

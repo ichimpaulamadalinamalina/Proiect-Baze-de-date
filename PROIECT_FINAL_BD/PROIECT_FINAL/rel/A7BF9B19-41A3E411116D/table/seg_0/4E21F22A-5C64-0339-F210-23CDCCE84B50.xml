@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E21F22A-5C64-0339-F210-23CDCCE84B50" name="Proiectie">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>D58F0109-8546-671D-C58A-56493687583A</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_proiectie" id="92BE2C54-D8B7-485A-BE7E-B91EFA4FC3A2">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>A821F1F3-0EEE-E57B-746F-FDB70FE7DDFB</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>200</autoIncrementStartWith>
+<autoIncrementMaxValue>270</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_sala" id="E3BDCE1A-E66D-BC25-AE55-C5FBAFC27484">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>6D159AA6-487E-4D35-7D4C-5B99D8D53915</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99AF65C7-0ECE-0015-736F-1B9DDA6306D8" referredColumn="848FF8C5-CC1E-CD0E-87BE-AA15A1094904"/>
+</associations>
+</Column>
+<Column name="Id_film" id="85C35577-154A-9103-BE26-743747865F0D">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>EE37FAEA-A6CD-6D0D-1B40-7DF64AB822F1</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BB82B3A-E7BB-77B6-A1A3-1533BD9E1C7A" referredColumn="2BDA3B12-86E6-DAE5-4287-70C32C7D2C4E"/>
+</associations>
+</Column>
+<Column name="Data" id="A01C1E79-5BDB-5C7B-D684-A4ECDC7FB3AE">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>ACA8B1B8-B643-7888-E9B9-F3379E1B3DFB</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ora" id="C6693279-6228-22D5-B140-E8FF5BFD98B0">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>1C11BB75-1702-C572-1EA4-9C37C465FD70</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<constraintName>ora_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="substr(Ora, 3, 1)=&apos;:&apos; AND to_number(substr(Ora, 4, 2))&gt;=0 AND to_number( substr(Ora, 4, 2) )&lt;=59 AND to_number(substr(Ora, 1, 2))&gt;=0 AND to_number(substr(Ora, 1, 2)) &lt;=23"/>
+</checkConstraint>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B031643E-251D-9E50-A9CD-F8A95388338B" name="Proiectie_PK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>E133637E-C801-A73C-A5B5-F804CBA9A795</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92BE2C54-D8B7-485A-BE7E-B91EFA4FC3A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="796A3DB3-4C3D-3EBA-3C00-10AA7214CBEE" name="Proiectie_Sali_FK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>96C6DDA9-1BD1-AFFF-F2A5-0A73D10F88A2</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3BDCE1A-E66D-BC25-AE55-C5FBAFC27484"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F959390-4026-D215-B226-507BEC0E54EA" name="Proiectie_Film_FK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>9E4DAEAD-829B-1438-63A6-8127B72A6DC0</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85C35577-154A-9103-BE26-743747865F0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDD2A6BC-B4B0-FCC8-5654-606E9232BA54" name="Cinematograf">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>025F7B4C-0BC3-8AC4-1D48-C315C08B6789</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nume_cinematograf" id="D39221AE-79E9-57DD-06AE-9D0F8FBC1614">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>500DE1D9-525E-C4AF-CEFA-3F5B1085F1C8</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="43DDAB72-F246-4A43-FEED-D00C4F0D21B4">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>FEE0F16C-25D1-32CE-850F-2DCF9070D116</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numar_telefon" id="68F2A598-BEF4-563C-83EF-0FB53F5FCB8F">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>44123A83-48FE-DB3D-477E-98845BF04F4A</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<constraintName>cinema_tel_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="SUBSTR(Numar_telefon,1,2) LIKE&apos;07&apos; AND length(Numar_telefon)=10"/>
+</checkConstraint>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Program_lucru" id="92CC1368-3C9A-B45A-41A2-6F85D13BADAF">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>34B8781A-AA39-1AF8-1C02-C11AF73C4863</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC5A4F20-64EA-C72B-D407-E4420DA7FC2B" name="Cinematograf_PK">
+<createdBy>Utilizator</createdBy>
+<createdTime>2020-11-28 15:39:18 UTC</createdTime>
+<generatorID>224FDC57-F6C5-2663-4585-2CF61D19C3D8</generatorID>
+<ownerDesignName>PROIECT_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D39221AE-79E9-57DD-06AE-9D0F8FBC1614"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
